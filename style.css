@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.a {
+  font-family: "Roboto Mono", monospace;
+  font-size: 40px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  margin-bottom: 55px;
+  margin-left: 115px;
+  margin-right: 95px;
+  width: 30px;
+}
+
+.main {
+  background-color: lightgray;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.form-row {
+  background-color: white;
+  border-radius: 9px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 45px;
+  width: 75%;
+}
+
+.form-row > input {
+  padding: 15px; 
+  outline: none;
+  border: none;
+  border-bottom: 3px solid lightgray;
+  transition: 0.5s;
+  }
+
+/* .form-row > Input:focus {
+  outline: none;
+  border: 1px solid black; */
+}
+
+.form-row > input::placeholder {
+  font-size: 15px;
+  color: black;
+}
+
+.form-row > button {
+  padding: 9px 5px;
+}
+
+.btn {
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  background-color: rgb(236, 236, 243);
+  cursor: pointer;
+  border: 2px solid;
+  transition: 0.5s;
+  font-weight: bold;
+  border-radius: 30px;
+ outline: none;
+
+  background-color: transparent;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgb(103, 183, 230) 0%,
+    rgb(95, 10, 231) 50%,
+    rgb(169, 10, 218) 100%
+  );
+}
+
+.btn:hover {
+  border: 2px solid rgb(228, 236, 228);
+  color: rgb(255, 255, 255);
+  background-image: linear-gradient( to right,  #bd19e6, #6691ee, rgb(156, 185, 247) );
+  transition: 0.8s;
+}
+  
+}
+
+.btn:focus {
+  outline: none;
+}
